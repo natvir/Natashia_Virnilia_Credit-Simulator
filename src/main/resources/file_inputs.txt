@@ -1,0 +1,8 @@
+{
+  "vehicleType": "Mobil",
+  "condition": "Bekas",
+  "year": 2011,
+  "totalCredit": 100000000,
+  "tenure": 3,
+  "dp": 25000000
+}

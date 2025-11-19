@@ -1,5 +1,6 @@
 package com.natashiavirnilia.creditsimulator;
 
+import com.natashiavirnilia.creditsimulator.controller.CreditSimulatorController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,6 +9,6 @@ public class CreditsimulatorApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CreditsimulatorApplication.class, args);
+		new CreditSimulatorController().start();
 	}
-
 }
