@@ -69,7 +69,7 @@ public class CreditSimulatorController {
         System.out.println("Terima kasih, aplikasi selesai.");
     }
 
-    private void loadFromFile(String fileName) {
+    public void loadFromFile(String fileName) {
         try (InputStream inputStream = CreditsimulatorApplication.class
                 .getClassLoader()
                 .getResourceAsStream(fileName)) {

@@ -9,6 +9,15 @@ public class CreditsimulatorApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CreditsimulatorApplication.class, args);
-		new CreditSimulatorController().start();
+		CreditSimulatorController controller = new CreditSimulatorController();
+
+		if (args.length > 0) {
+			String fileName = args[0];
+			controller.loadFromFile(fileName);
+		} else {
+			controller.start();
+		}
 	}
+
 }
+
