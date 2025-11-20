@@ -35,7 +35,8 @@ Mobil/Motor Baru → ≥ 35% dari jumlah pinjaman
 Mobil/Motor Bekas → ≥ 25% dari jumlah pinjaman
 - Jumlah pinjaman ≤ 1 miliar
 
-'''struktur aplikasi
+struktur aplikasi
+```
 credit-simulator/
 │
 ├── src/main
@@ -66,9 +67,10 @@ credit-simulator/
 │   └── creditsimulator-0.0.1-SNAPSHOT.jar
 │
 └── README.md
-'''
+```
 
 Contoh Flow Input
+```
 > show
 === COMMAND LIST ===
 calculate   : Hitung cicilan baru
@@ -85,10 +87,12 @@ Tahun Kendaraan: 2011
 Total Pinjaman: 100000000
 Tenor (1-6 tahun): 3
 DP: 25000000
-
+```
 Output
+```
 Tahun 1 : Rp.  2,250,000.00/bln, Suku Bunga: 8.0%
 Tahun 2 : Rp.  2,432,250.00/bln, Suku Bunga: 8.1%
 Tahun 3 : Rp.  2,641,423.50/bln, Suku Bunga: 8.6%
 Sheet 'Sheet_1763645475374' tersimpan dan aktif.
-> 
+>
+```
