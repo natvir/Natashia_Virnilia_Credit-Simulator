@@ -64,7 +64,7 @@ credit-simulator/
 │
 └── README.md
 
-*Contoh Flow Input*
+Contoh Flow Input
 > show
 === COMMAND LIST ===
 calculate   : Hitung cicilan baru
@@ -81,7 +81,8 @@ Tahun Kendaraan: 2011
 Total Pinjaman: 100000000
 Tenor (1-6 tahun): 3
 DP: 25000000
-*Output*
+
+Output
 Tahun 1 : Rp.  2,250,000.00/bln, Suku Bunga: 8.0%
 Tahun 2 : Rp.  2,432,250.00/bln, Suku Bunga: 8.1%
 Tahun 3 : Rp.  2,641,423.50/bln, Suku Bunga: 8.6%
