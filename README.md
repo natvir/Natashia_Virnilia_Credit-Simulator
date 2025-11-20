@@ -35,34 +35,38 @@ Mobil/Motor Baru → ≥ 35% dari jumlah pinjaman
 Mobil/Motor Bekas → ≥ 25% dari jumlah pinjaman
 - Jumlah pinjaman ≤ 1 miliar
 
-*struktur aplikasi*
+'''struktur aplikasi
 credit-simulator/
 │
 ├── src/main
 │   ├── controller/
 │   │   └── CreditSimulatorController
 │   ├── model/
-│   │   └── CreditRequest
+│   │   ├── CreditRequest
 │   │   └── CreditResponse
 │   ├── service/
-│   │   └── impl
-│   │   │   └── CreditMobilImpl
+│   │   ├── impl/
+│   │   │   ├── CreditMobilImpl
 │   │   │   └── CreditMotorImpl
-│   │   └── strategy
-│   │   │   └── CreditSimulatorStrategy
+│   │   ├── strategy/
+│   │   │   ├── CreditSimulatorStrategy
 │   │   │   └── CreditSimulatorStrategyFactory
 │   │   └── CreditValidationService
 │   └── view/
-│       └── CommandMenu
+│       ├── CommandMenu
 │       └── SheetManager
-│  ├── resouces/
-│       └── file_inputs.txt
+│
+├── resources/
+│   └── file_inputs.txt
+│
 ├── tests/
 │   └── CreditsimulatorApplicationTest
-└── target/
+│
+├── target/
 │   └── creditsimulator-0.0.1-SNAPSHOT.jar
 │
 └── README.md
+'''
 
 Contoh Flow Input
 > show
